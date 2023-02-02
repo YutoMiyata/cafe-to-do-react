@@ -94,3 +94,24 @@ p {
     font-weight: bold;
     color: white;
 }
+
+@media (max-width:430px) {
+    .title h1 {
+        font-size: 22px;
+    }
+    .toDoInput {
+        width: 90%;
+    }
+
+    /* 未完了 */
+    .unCompleteTask {
+        width: 90%;
+    }
+
+    .checkTask {
+        width: 90%;
+    }
+    .completeTask {
+        width: 90%;
+    }
+}

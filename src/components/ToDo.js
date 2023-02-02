@@ -103,8 +103,8 @@ const ToDo = () => {
                     <div className='unComleteTaskContent'>
                         <p>{ checktask }</p>
                         <div className='unCompleteToDoButton'>
-                            <button onClick={() => onClickOk(index)}>チェック・OK</button>
-                            <button onClick = {() => onClickBack(index)}>チェック・BACK</button>
+                            <button onClick={() => onClickOk(index)}>OK</button>
+                            <button onClick = {() => onClickBack(index)}>BACK</button>
                         </div>                
                     </div>
                 )
